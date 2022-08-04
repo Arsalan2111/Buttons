@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(4, 255, 221);
+}
+
+.btn{
+
+   margin: 350px 0;
+}
+
+button{
+    font-size: 3rem;
+    padding: 20px;
+    margin: 0 15px;
+    cursor: pointer;
+    background-color: black;
+    color:orange;
+    border:none;
+    transition: .5s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+button:hover{ background-color: transparent; border: 3px solid orange; color:black;
+     border-radius:50px ; -webkit-border-radius:50px ; -moz-border-radius:50px ; -ms-border-radius:50px ; -o-border-radius:50px ;
+}
